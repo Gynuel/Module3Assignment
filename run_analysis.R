@@ -56,7 +56,7 @@ data$activity <- act
 #5) From the data set in step 4, creates a second, independently tidy data set with the
 #average of each variable for each activity and each subject
 
-if(!"reshape2" %in%% installed.packages()){
+if(!"reshape2" %in% installed.packages()){
 	install.packages("reshape2")
 }
 
